@@ -96,18 +96,20 @@ p {
 .md_1_p1 {
     font-weight: 500;
     font-size: 40px;
-    width: 570px;
     white-space: nowrap;
 }
 
-.md_1_p2 {
-    margin: 30px 0;
+.for_top_margin {
+    margin-top: 30px;
+}
+
+.for_bottom_margin {
+    margin-bottom: 30px;
 }
 
 .md_1_p2 {
     color: #707070;
     font-size: 17px;
-    width: 520px;
 }
 
 .md_2_b {
@@ -217,6 +219,7 @@ p {
 
 .dd {
     margin-right: 40px;
+    position: relative;
 }
 
 .nv_1_2_d::after {
@@ -427,7 +430,8 @@ p {
 
 @media (max-width: 1308px) {
     .bg_img {
-        height: 33vw;
+        height: 35vw;
+        margin-left: 9vw;
     }
     .md_1_p1 {
         font-size: 3vw;
@@ -436,9 +440,74 @@ p {
         font-size: 1.3vw;
     }
     .md_2_b {
-        padding: 1.3vw;
+        padding: 1vw;
     }
     .another_for_gradient {
         margin-right: 2vw;
+    }
+    .md_2_1_p {
+        font-size: 1.3vw;
+    }
+    .for_top_margin {
+        margin-top: 2vw;
+    }
+    .for_bottom_margin {
+        margin-bottom: 2.5vw;
+    }
+    .f {
+        width: 48vw;
+        height: 8vw;
+    }
+    .bx_f {
+        font-size: 2.2vw;
+    }
+    .f_p {
+        font-size: 1.2vw;
+    }
+    .db {
+        right: 8vw;
+    }
+    .db_d {
+        height: 2.6vw;
+        width: 2.6vw;
+    }
+    .bx_db,
+    .bx-play {
+        font-size: 2.2vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .bg_img {
+        margin-left: 0;
+    }
+    .md_1_p1 {
+        font-size: 3.4vw;
+    }
+    .md_1_p2 {
+        font-size: 1.5vw;
+    }
+    .md_2_1_p {
+        font-size: 1.6vw;
+    }
+    .md_2_b {
+        padding: 0.7vw;
+    }
+    .f {
+        width: 55vw;
+        height: 10vw;
+    }
+    .bx_f {
+        font-size: 2.5vw;
+    }
+    .f_p {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .f {
+        width: 80vw;
+        height: 10vw;
     }
 }
