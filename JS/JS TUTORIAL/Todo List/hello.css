@@ -1,0 +1,69 @@
+body {
+    padding: 10px;
+}
+
+p {
+    font-family: poppins;
+}
+
+input {
+    cursor: pointer;
+}
+
+.js-name-input {
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.js-due-date-input {
+    margin: 0 30px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px grey solid;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+button {
+    padding: 8.5px 20px;
+    border: none;
+    background-color: limegreen;
+    color: white;
+    font-family: poppins;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theDiv {
+    font-size: 17px;
+}
+
+.theDeleteButton {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.theDateDiv {
+    left: 275px;
+    position: absolute;
+}
+
+.theDeleteButton {
+    left: 480px;
+    position: absolute;
+    top: 0;
+}
+
+.theDeleteButton:focus {
+    border: 0;
+}

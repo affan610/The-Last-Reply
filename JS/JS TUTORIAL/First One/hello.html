@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/JS/JS TUTORIAL/First One/hello.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Lesson - 1 #Variables Project -->
+    <!-- <p>Cart Quantity</p>
+    <div class="v_d">
+        <button onclick="updateQuantity('show_quantity')" class="v_d_b">Show Quantity</button>
+        <button class="v_d_b" onclick=" 
+updateQuantity('one', 'add')
+">Add to Cart</button>
+        <button onclick=" 
+updateQuantity('two', 'add')
+        " class="v_d_b">+2</button>
+        <button class="v_d_b" onclick=" 
+
+updateQuantity('three', 'add')
+        ">+3</button>
+        <button class="v_d_b" onclick=" 
+
+updateQuantity('four', 'add')
+       
+       ">+4</button>
+        <button class="v_d_b" onclick="
+
+updateQuantity('five', 'add')
+                
+                ">+5</button>
+                        <button onclick="
+                        updateQuantity('minus_one', 'minus')
+                        ">-1</button>
+        <button onclick="
+        updateQuantity('minus_two', 'minus')
+        ">-2</button>
+        <button onclick="
+             updateQuantity('minus_three', 'minus')
+        ">-3</button>
+        <button class="v_d_b" onclick=" 
+        
+updateQuantity('reset')
+        ">Reset cart</button>
+        <p class="result" ></p>
+    <p class="js_otherThings_p"></p>
+    </div> -->
+    <!-- Lesson -2 #Booleans and #If-statements Project -->
+    <!-- Rock Pappers Sissors 1st time (made by me )-->
+    <!-- <p>Rock Paper Scissors</p>
+    <button onclick="
+    if (random >= 0 && random < 1/3) {
+        console.log('The computer choosed rock')
+        console.log('This is a tie')
+        random = Math.random()
+    }
+    else if (random >= 1/3 && random < 1/2) {
+        console.log('The computer choosed papers')
+        console.log('You Lose')
+        random = Math.random()
+    }
+    else {
+        console.log('The computer choosed sissors')
+        console.log('You Win')
+        random = Math.random()
+    }
+
+    ">Rock</button>
+    <button>Paper</button>
+    <button>Scissors</button> -->
+    <!-- Rock Pappers Sissors 2nd time (done by the supersimple dev )-->
+    <!-- <p>Rock Paper Scissors</p>
+
+    <button onclick="
+    const random = Math.random();
+   let compmove = '';
+    if (random >= 0 && random < 1/3) {
+       compmove = 'rock'
+    }
+    else if (random >= 1/3 && random < 1/2) {
+        compmove = 'scissors'
+    }
+    else {
+        compmove = 'paper'
+    }
+    let result = '';
+ if (compmove === 'rock'){
+result = 'Its a tie'
+ }
+ else if (compmove === 'paper'){
+    result = 'You lose'
+ } else{
+    result = 'You win'
+ }
+ alert('You picked rock. Computer picked ' + compmove + '. ' +  result)
+    ">Rock</button>
+    <button onclick="
+const random = Math.random();
+   let compmove = '';
+    if (random >= 0 && random < 1/3) {
+       compmove = 'rock'
+    }
+    else if (random >= 1/3 && random < 1/2) {
+        compmove = 'scissors'
+    }
+    else {
+        compmove = 'paper'
+    }
+    let result = '';
+    if (compmove === 'rock'){
+    result = 'You win'
+     }
+     else if (compmove === 'paper'){
+        result = 'Its a tie'
+     } else{
+        result = 'You lose'
+     }
+ alert('You picked paper. Computer picked ' + compmove + '. ' +  result)
+    ">Paper</button>
+    <button onclick="
+    const random = Math.random();
+   let compmove = '';
+    if (random >= 0 && random < 1/3) {
+       compmove = 'rock'
+    }
+    else if (random >= 1/3 && random < 1/2) {
+        compmove = 'scissors'
+    }
+    else {
+        compmove = 'paper'
+    }
+    let result = '';
+    if (compmove === 'rock'){
+    result = 'You lose'
+     }
+     else if (compmove === 'paper'){
+        result = 'You win'
+     } else{
+        result = 'Its a tie'
+     }
+ alert('You picked scissors. Computer picked ' + compmove + '. ' +  result)
+    
+    ">Scissors</button> -->
+    <!-- Lesson - 7 #Function -->
+    <!-- Rebuilding the rock paper sissors game agin by using function as told int he tutorial. -->
+    <!-- <p>Rock Paper Scissors</p>
+
+    <button onclick="
+ thegame('rock')
+    ">Rock</button>
+    <button onclick="
+
+thegame ('paper')
+    ">Paper</button>
+    <button onclick="
+   thegame ('scissors')
+    ">Scissors</button> -->
+    <!-- #Functions Exercises Also used #Objects(L - 8) to ubgrade -->
+    <!-- Making a calculator -->
+    <!-- <p class="calculator_heading">Calculator</p>
+    <p class="js_result_p"></p>
+    <div class="div1">
+        <div class="d">
+
+            <button class="calc_b" onclick="calc('one')">
+                <p class="b_p" >1</p>
+            </button>
+            <button class="calc_b" onclick="calc('two')">
+                <p class="b_p" >2</p>
+            </button>
+            <button class="calc_b" onclick="calc('three')">
+                <p class="b_p" >3</p>
+            </button>
+            <button class="calc_b calc_b_yellow_buttons" onclick="calc('plus')">
+                <p class="b_p b_p_black " >+</p>
+            </button>
+        </div>
+        <div class="d">
+            <button class="calc_b" onclick="calc('four')">
+                <p class="b_p" >4</p>
+            </button>
+            <button class="calc_b" onclick="calc('five')">
+                <p class="b_p" >5</p>
+            </button>
+            <button class="calc_b" onclick="calc('six')">
+                <p class="b_p" >6</p>
+            </button>
+            <button class="calc_b calc_b_yellow_buttons" onclick="calc('minus')">
+                <p class="b_p b_p_black" >-</p>
+            </button>
+        </div>
+        <div class="d">
+            <button class="calc_b" onclick="calc('seven')">
+                <p class="b_p" >7</p>
+            </button>
+            <button class="calc_b" onclick="calc('eight')">
+                <p class="b_p" >8</p>
+            </button>
+            <button class="calc_b" onclick="calc('nine')">
+                <p class="b_p" >9</p>
+            </button>
+            <button class="calc_b calc_b_yellow_buttons" onclick="calc('multiply')">
+                <p class="b_p b_p_black" >*</p>
+            </button>
+        </div>
+        <div class="d">
+            <button class="calc_b" onclick="calc('zero')">
+                <p class="b_p" >0</p>
+            </button>
+            <button class="calc_b" onclick="calc('dot')">
+                <p class="b_p" >.</p>
+            </button>
+            <button class="calc_b" onclick="calc('equals')">
+                <p class="b_p" >=</p>
+            </button>
+            <button class="calc_b calc_b_yellow_buttons" onclick="calc('divide')">
+                <p class="b_p b_p_black" >/</p>
+            </button>
+        </div>
+        <div class="d">
+            <button class="clear_b calc_b" onclick="calc('clear')">
+                <p class="b_p" >Clear</p>
+            </button>
+        </div>
+
+
+    </div> -->
+    <!-- Lesson - 7 #Objects -->
+    <!-- (Separated file) Making a new copy/updated of the rock paper scisoors project. -->
+
+
+    <!-- #Objects Exercises -->
+    <!-- Making a head tails game -->
+    <!-- <button onclick="
+          playGame('heads')
+           ">head</button>
+           <button onclick="
+           playGame('tails')
+           ">tails</button>
+           <button onclick="playGame('reset')" >Reset</button>
+           <p class="js_your_move"></p>
+           <p class="js_p" ></p> -->
+    <!-- Lesson - 9 #DOM -->
+    <!-- <p>try it </p>
+            <button class="man">second p</button> -->
+    <!-- #DOM Projects -->
+    <!-- <p class="js_p">YouTube Subscribe Button</p>
+             <button  class="js_b" onclick="
+             subscribe()
+             ">    -->
+    <!-- </button>
+ <p>Amazon Shipping Calculator</p>
+<p>Orders under $40 = +$10 shipping</p>
+<p>Orders over $40 = FREE shipping</p>
+<input class="i" type="text" onkeydown="
+isEnterKey(event)
+"  placeholder="Cose of order">
+<button class="calculate" onclick="
+shippingCharges()
+" >Calculate</button>
+<p class="js_cost"></p> -->
+    <!-- #DOM Exercises -->
+    <!-- <button class="abutton">Button</button> -->
+    <!-- <input onkeydown=" 
+Enter(event)
+"  placeholder="Enter your name" type="text" class="i">
+<button onclick="
+displayName()
+">Submit</button> -->
+    <!-- <input onkeyup="
+onKeyUp()
+" class="on_key_up">
+<p class="js_p"></p> -->
+    <!-- Lesson - 10 #HTML, CSS, and Javascript Together -->
+    <!-- Lesson - 10 #HTML, CSS, and Javascript Together exercises -->
+
+    <!-- <button onclick="toggle1()" class=" js_button1">Studying</button>
+<button onclick="toggle2()" class=" js_button2">Coding</button>
+<button onclick="toggle3()" class=" js_button3">Gaming</button> -->
+    <!-- Lesson 11 #Arrays and Loops -->
+    <!-- Making Todo 1 -->
+    <!-- <p>Todo List Practie 1</p>
+    <input onkeydown="
+ onEnterAddTodo(event)
+ " type="text" placeholder=" Enter Todo name" class="todo_1"> -->
+
+
+    <!-- (Separated file) Making Todo 2 and 3 which is a ubgraded version of it. -->
+
+    <!-- #Arrays Exercises
+    <!-- Lesson - 9 #Arrays(Part 2) -->
+    <!-- #Arrays(part-2) Exercise -->
+    <!-- Lesson - 12 #Advanced Functions -->
+    <!-- #Advanced Functions Exercises(part-1) -->
+    <!-- <button class="theB " onclick=" textChange() ">Start</button>
+    <button class="addToCart ">Add to cart</button>
+    <p class="cartP "></p>
+    <button class="addOrMinus add">Add</button>
+    <button class="addOrMinus minus">Remove</button> -->
+    <!-- <button onclick=" " class="theB ">A Button</button> -->
+    <!-- #Advanced Functions Exercises (part-2) -->
+</body>
+<script src="/JS/JS TUTORIAL/First One/hello.js "></script>
+
+</html>

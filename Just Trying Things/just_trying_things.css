@@ -1,0 +1,32 @@
+html {
+    background-color: black;
+}
+
+.md {
+    border: 3px red solid;
+    width: 99vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d {
+    height: 300px;
+    width: 200px;
+    display: flex;
+}
+
+.d1 {
+    margin-left: 300px;
+    background-color: skyblue;
+}
+
+.d2 {
+    background-color: green;
+}
+
+.d3 {
+    margin-right: 300px;
+    background-color: pink;
+}

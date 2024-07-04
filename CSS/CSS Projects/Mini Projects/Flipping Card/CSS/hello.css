@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+}
+
+.balls {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+p {
+    margin: 0;
+    font-family: poppins;
+    color: rgb(245, 245, 245);
+}
+
+.md {
+    position: absolute;
+    top: 31%;
+    left: 35%;
+}
+
+.mdf,
+.mdb {
+    height: 200px;
+    width: 350px;
+    padding: 25px 30px 30px 30px;
+    border-radius: 25px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(185, 185, 185, 0.05);
+    position: absolute;
+}
+
+.mdb {
+    display: none;
+}
+
+.first_ball {
+    left: 29%;
+    top: 18%;
+    background-image: linear-gradient(to right, #A131AD, white);
+}
+
+.second_ball {
+    left: 49%;
+    top: 42%;
+    background-image: linear-gradient(to right, white, #A131AD);
+}
+
+.mdf_1_1_1_img {
+    height: 31px;
+    margin-right: 12px;
+}
+
+.mdf_1_1_2_img {
+    height: 34px;
+    margin-top: 3px;
+}
+
+.mdf_1_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mdf_1_1_1 {
+    display: flex;
+    align-items: center;
+}
+
+.mdf_1_2 {
+    margin-top: 40px;
+}
+
+.mdf_1_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.mdf_1_1_1_p1 {
+    font-size: 12px;
+}
+
+.mdf_1_1_1_p2 {
+    font-size: 21px;
+}
+
+.mdf_1_3_2_p2 {
+    font-size: 16px;
+}
+
+.mdf_1_3_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mdb_2 {
+    position: absolute;
+    height: 50px;
+    top: 33px;
+    left: -1.7px;
+    right: -1.5px;
+    background-color: black;
+    margin: 20px 0 20px 0;
+}
+
+.mdb_3 {
+    display: flex;
+    margin: 83px 0 20px 0;
+}
+
+.mdb_3_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mdb_3_1_1 {
+    height: 48px;
+    flex: 1;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.mdb_3_1_1_1 {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+
+.mdb_3_1_2 {
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mdb_3_1_1_1_special {
+    width: 97.9%;
+    margin-left: 3px;
+}
+
+.mdb_4_p1,
+.mdb_1_p {
+    font-size: 11px;
+}
