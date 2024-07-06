@@ -10,7 +10,8 @@ p {
     font-family: poppins;
 }
 
-.nv {
+.nv,
+.nv2 {
     position: fixed;
     top: 0;
     left: 0;
@@ -19,6 +20,21 @@ p {
     justify-content: space-around;
     padding-top: 40px;
     align-items: center;
+}
+
+.for_extra_margin_in_nv2 {
+    display: flex;
+    margin-right: 4vw;
+}
+
+.nv2 {
+    top: 100px;
+    justify-content: center;
+    display: none;
+}
+
+.nv2_p {
+    margin-right: 30px;
 }
 
 .nv_1_img {
@@ -192,5 +208,14 @@ p {
         color: white;
         margin-top: 0px;
         opacity: 1;
+    }
+}
+
+@media (max-width: 1019px) {
+    .nv2 {
+        display: flex;
+    }
+    .nv_2 {
+        display: none;
     }
 }
