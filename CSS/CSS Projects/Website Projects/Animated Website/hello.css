@@ -1,12 +1,16 @@
 body {
     margin: 0;
-    height: 100vw;
-    width: 100vh;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
 }
 
 p {
     margin: 0;
     font-family: poppins;
+    color: red;
 }
 
 .nv,
@@ -62,6 +66,7 @@ p {
     cursor: pointer;
     font-size: 17px;
     color: black;
+    white-space: nowrap;
 }
 
 .nv_1_b,
@@ -95,9 +100,8 @@ p {
 
 .md {
     position: relative;
-    top: 300px;
-    padding-left: 200px;
     display: inline-block;
+    margin-left: 9vw;
 }
 
 .md_1_p {
@@ -111,19 +115,19 @@ p {
 
 .md_2_p {
     font-size: 15px;
-    width: 600px;
+    
 }
 
-.img1,
-.img2 {
+.img1{
     position: fixed;
 }
 
 .img2 {
     z-index: 2;
+    position:absolute;
     bottom: 0;
-    right: 200px;
-    width: 620px;
+    margin-right: 8vw;
+    width: 420px;
     opacity: 0;
     animation: imgUp forwards 2s ease 2s 1;
 }
@@ -212,9 +216,13 @@ p {
 @media (max-width: 1019px) {
     .nv2 {
         display: flex;
+        top: 8vw;
     }
     .nv_2 {
         display: none;
+    }
+    .nv{
+        padding-top: 2vw;
     }
 }
 
@@ -248,4 +256,65 @@ p {
 .hover_anim:hover .nv_1_nv_1_p {
     color: white;
     font-weight: 500;
+}
+@media (max-width: 681px) {
+    .nv_1{
+        margin:0 5vw;
+    }
+    .nv_3{
+        margin-right: 5vw;
+    }
+}
+@media (max-width: 597px) {
+    .nv_1_img{
+        height: 8vw;
+    }
+    .nv_1_p,
+    .nv_1_nv_1_p {
+        font-size: 2.8vw;
+    }
+    .nv_1_b_p{
+        font-size: 2.6vw;
+    }
+    .nv_1_b{
+        height: 8.5vw;
+        width: 37vw;
+    }
+}
+@media (max-width: 1238px) {
+    .img2{
+        right: 1vw;
+    }
+}
+@media (max-width: 1135px) {
+    .md{
+        margin: 0;
+    }
+    .img2{
+        position: inherit;
+    }
+    body{
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 150vh;
+    }
+}
+@media (max-width: 675px) {
+    .md{
+       margin-left: 5vw;
+    }
+    .md_1_p{
+        font-size: 7.5vw;
+    }
+    .md_2_p{
+        font-size: 2.3vw;
+    }
+    .md_3_b{
+        height: 8.5vw;
+        width: 36vw;
+    }
+    .md_3_b_p{
+        font-size: 2.4vw;
+    }
 }
