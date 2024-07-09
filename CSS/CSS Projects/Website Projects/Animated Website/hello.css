@@ -41,7 +41,7 @@ p {
 }
 
 .nv_1_img {
-    height: 48px;
+    height: 3.5vw;
     cursor: pointer;
 }
 
@@ -105,7 +105,7 @@ p {
 }
 
 .md_1_p {
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 600;
 }
 
@@ -113,21 +113,21 @@ p {
     margin: 15px 0 30px 0;
 }
 
-.md_2_p {
-    font-size: 15px;
-    
+.md_2_p,
+.nv_1_nv_1_p {
+    font-size: 0.9vw;
 }
 
-.img1{
+.img1 {
     position: fixed;
 }
 
 .img2 {
     z-index: 2;
-    position:absolute;
+    position: absolute;
     bottom: 0;
-    margin-right: 8vw;
-    width: 420px;
+    right: 8vw;
+    width: 620px;
     opacity: 0;
     animation: imgUp forwards 2s ease 2s 1;
 }
@@ -221,7 +221,7 @@ p {
     .nv_2 {
         display: none;
     }
-    .nv{
+    .nv {
         padding-top: 2vw;
     }
 }
@@ -257,64 +257,69 @@ p {
     color: white;
     font-weight: 500;
 }
+
 @media (max-width: 681px) {
-    .nv_1{
-        margin:0 5vw;
+    .nv_1 {
+        margin: 0 5vw;
     }
-    .nv_3{
+    .nv_3 {
         margin-right: 5vw;
     }
 }
+
 @media (max-width: 597px) {
-    .nv_1_img{
+    .nv_1_img {
         height: 8vw;
     }
     .nv_1_p,
     .nv_1_nv_1_p {
         font-size: 2.8vw;
     }
-    .nv_1_b_p{
+    .nv_1_b_p {
         font-size: 2.6vw;
     }
-    .nv_1_b{
+    .nv_1_b {
         height: 8.5vw;
         width: 37vw;
     }
 }
+
 @media (max-width: 1238px) {
-    .img2{
+    .img2 {
         right: 1vw;
     }
 }
+
 @media (max-width: 1135px) {
-    .md{
+    .md {
         margin: 0;
     }
-    .img2{
+    .img2 {
         position: inherit;
     }
-    body{
+    body {
         justify-content: center;
         flex-direction: column;
         justify-content: center;
         height: 150vh;
     }
 }
+
 @media (max-width: 675px) {
-    .md{
-       margin-left: 5vw;
+    .md {
+        margin-left: 5vw;
     }
-    .md_1_p{
+    .md_1_p {
         font-size: 7.5vw;
     }
-    .md_2_p{
+    .md_2_p {
         font-size: 2.3vw;
     }
-    .md_3_b{
+    .md_3_b {
         height: 8.5vw;
         width: 36vw;
     }
-    .md_3_b_p{
+    .md_3_b_p {
         font-size: 2.4vw;
     }
 }
