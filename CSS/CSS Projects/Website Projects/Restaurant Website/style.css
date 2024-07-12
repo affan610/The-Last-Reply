@@ -1,0 +1,35 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+}
+p{
+  font-family: poppins;
+}
+.navbar_logo{
+  height: 70px;
+}
+.nv{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #FF9900;
+  padding: 10px 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nv_2{
+  display: flex;
+}
+.navbar_p{
+  margin-left: 12px;
+  color: white;
+  cursor: pointer;
+}
+.navbar_p_home{
+  color: black;
+}
+.navbar_p:hover{
+  color: black;
+}
