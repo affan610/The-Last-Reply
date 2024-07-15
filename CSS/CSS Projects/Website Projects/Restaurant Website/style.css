@@ -1,9 +1,15 @@
 body{
   box-sizing: border-box;
   margin: 0;
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 p{
   font-family: poppins;
+  margin: 0;
 }
 .navbar_logo{
   height: 70px;
@@ -14,7 +20,7 @@ p{
   right: 0;
   top: 0;
   background-color: #FF9900;
-  padding: 10px 170px;
+  padding: 10px 13vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,4 +38,84 @@ p{
 }
 .navbar_p:hover{
   color: black;
+}
+.container{
+  display: flex;
+}
+.d1_img{
+  height: 370px;
+}
+.d2_1_p{
+  font-size: 33px;
+  font-family: "Playwrite CU", cursive;
+}
+.d2{
+  display: flex;
+  flex-direction: column;
+}
+.d2_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:2vw;
+}
+
+.d2_2_b{
+  height: 48px;
+  width: 115px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+.d2_2{
+  display: flex;
+  justify-content: center;
+}
+.d2_2_b1{
+  margin-right: 15px;
+  background-color: #FF9900;
+}
+.d2_2_b2{
+  background-color: transparent;
+  border: 1px solid #FF9900;
+}
+.d2_2_b_p{
+  font-size: 14.5px;
+}
+.d2_2_b_p_1{
+  color: white;
+  transition: all 0.3s;
+}
+.d2_2_b_p_2{
+  transition: all 0.3s;
+}
+.d2_2_b{
+  transition: all 0.3s;
+}
+.d2_2_b1:hover .d2_2_b_p_1{
+  color: black;
+  font-family: 500;
+}
+.d2_2_b2:hover{
+  background-color:#FF9900 ;
+}
+.d2_2_b2:hover .d2_2_b_p_2{
+  color: black;
+  font-family: 500;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+.d{
+  display: flex;
+  flex: 1;
+  padding-left: 30px;
+  border-right: 2px solid white;
 }
