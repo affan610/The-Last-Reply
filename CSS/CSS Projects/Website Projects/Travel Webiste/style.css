@@ -1,29 +1,27 @@
 body {
     margin: 0;
     box-sizing: border-box;
-    padding: 10px 160px 70px 75px;
+    padding: 0px 160px 70px 75px;
     display: grid;
-    grid-template-rows: auto 1fr;
-    row-gap: 15px;
     height: 100vh;
     width: 100vw;
-}
-
-.cc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50vw;
 }
 
 p {
     margin: 0;
     font-family: poppins;
+    white-space: nowrap;
 }
 
 nav {
     display: flex;
-    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    height: 100px;
+    left: 75px;
+    right: 80px;
+    z-index: 2;
     justify-content: space-between;
     align-items: center;
 }
@@ -34,6 +32,10 @@ nav {
 
 .n_d3 {
     display: flex;
+}
+
+.n_d2 {
+    margin-right: 10vw;
 }
 
 .n_d3_p,
@@ -112,4 +114,28 @@ nav {
     font-size: 13.5px;
     font-weight: 500;
     letter-spacing: 0.7px;
+}
+
+.fa-bars {
+    display: none !important;
+}
+
+.fa-bars-staggered {
+    display: none !important;
+}
+
+.logo {
+    height: 60px;
+}
+
+@media (max-idth: 1000px) {
+    .n_d2 {
+        margin: 0 60px;
+    }
+}
+
+@media (max-width: 1235px) {
+    .n_d2 {
+        margin: 0 30px;
+    }
 }
