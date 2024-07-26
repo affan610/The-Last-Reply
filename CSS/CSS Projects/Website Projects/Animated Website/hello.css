@@ -10,7 +10,6 @@ body {
 p {
     margin: 0;
     font-family: poppins;
-    color: red;
 }
 
 .nv,
@@ -127,7 +126,8 @@ p {
     position: absolute;
     bottom: 0;
     right: 8vw;
-    width: 620px;
+    width: 33vw;
+    min-width: 400px;
     opacity: 0;
     animation: imgUp forwards 2s ease 2s 1;
 }
