@@ -97,6 +97,7 @@ p {
     font-weight: 500;
     font-size: 40px;
     white-space: nowrap;
+    color: white;
 }
 
 .for_top_margin {
@@ -108,12 +109,12 @@ p {
 }
 
 .md_1_p2 {
-    color: #707070;
+    color: rgb(155, 158, 178);
     font-size: 17px;
 }
 
 .md_2_b {
-    padding: 15px;
+    padding: 15px 17px 15px 17px;
     border-radius: 60%;
     border: none;
     background-color: #41455A;
@@ -163,12 +164,14 @@ p {
 .bx_f {
     font-size: 30px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .db {
     position: absolute;
     bottom: 30px;
     right: 100px;
+    z-index: 4;
 }
 
 .bx_db {
@@ -214,7 +217,8 @@ p {
 
 .bx-play {
     font-size: 30px;
-    margin-right: -1px;
+    margin-right: -3px;
+    color: white;
 }
 
 .dd {
@@ -362,6 +366,11 @@ p {
 
 .fa-bars:hover {
     animation: getBigger 0.5s linear 0s 1 forwards;
+}
+
+.bx_f,
+.f_p {
+    color: white;
 }
 
 @keyframes getBigger {
