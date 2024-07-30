@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    height: 100vh;
-    width: 100vw;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -87,4 +85,37 @@ p {
     transform: translateX(40px);
     opacity: 0;
     color: white !important;
+}
+
+@media (max-width:1413px) {
+    .md {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:1000px) {
+    .container {
+        padding: 0 70px;
+    }
+    .md {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 494px) {
+    .d_p_1 {
+        font-size: 8vw;
+    }
+    .fd_p_2 {
+        font-size: 3vw;
+    }
+    .container {
+        padding: 0 7vw;
+    }
+    .dd {
+        padding: 3vw 3vw 3vw 6vw 3vw;
+    }
+    .fa-main-icons {
+        font-size: vw;
+    }
 }
