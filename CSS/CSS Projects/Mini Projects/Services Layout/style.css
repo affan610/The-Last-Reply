@@ -14,6 +14,9 @@ p {
 
 .container {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .d_p_1 {
@@ -67,10 +70,6 @@ p {
 }
 
 
-/* .dd_d2_d2_p1 {
-    width: 400px;
-    min-width: 0;
-} */
 
 .dd_d2_d2 {
     margin-top: 5px;
@@ -129,5 +128,8 @@ p {
     }
     .dd {
         width: 80vw;
+    }
+    .dd_d3{
+        padding: 1.3vw 1.5vw;
     }
 }
