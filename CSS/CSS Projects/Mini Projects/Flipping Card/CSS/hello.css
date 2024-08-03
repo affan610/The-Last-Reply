@@ -1,5 +1,9 @@
 body {
     background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+
 }
 
 .balls {
@@ -16,28 +20,39 @@ p {
 }
 
 .md {
-    position: absolute;
-    top: 31%;
-    left: 35%;
+    position: relative;
+   margin-left: 450px;
+   height: 250px;
+   width: 400px;
+   perspective: 1000px;
+   display: flex;
+   align-items: center;
 }
-
+.the_mid_dvi{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
 .mdf,
 .mdb {
-    height: 200px;
-    width: 350px;
-    padding: 25px 30px 30px 30px;
+    height: 100%;
+    width: 100%;
     border-radius: 25px;
-    z-index: 2;
     background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(30px);
+   backdrop-filter: blur(30px);
     border: 2px solid rgba(185, 185, 185, 0.05);
     position: absolute;
+    backface-visibility: hidden;
 }
 
-.mdb {
-    display: none;
+.mdb{
+    transform: rotateY(180deg);
 }
-
+.md:hover .the_mid_dvi{
+transform: rotateY(-180deg);
+}
 .first_ball {
     left: 29%;
     top: 18%;

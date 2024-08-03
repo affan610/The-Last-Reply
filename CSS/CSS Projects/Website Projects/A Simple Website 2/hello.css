@@ -412,7 +412,7 @@
         .img3 {
             display: inline-block;
             height: 26vw;
-            animation: scaleToggle 2s linear 0s infinite alternate-reverse;
+            animation: scaleToggle 1.5s linear 0s infinite alternate-reverse;
         }
         .img2 {
             display: none;
@@ -422,7 +422,7 @@
                 transform: scale(1);
             }
             to {
-                transform: scale(1.2);
+                transform: scale(1.15);
             }
         }
     }
