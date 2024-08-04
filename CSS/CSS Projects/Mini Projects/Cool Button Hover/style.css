@@ -4,8 +4,31 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 a{
   text-decoration: none;
   color: white;
+}
+.dd .dd_d{
+  list-style: none;
+  margin-top: 13px;
+}
+.dd .dd_d{
+  padding: 8px 16px ;
+  background-color: limegreen;
+  z-index: 1;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+
+}
+.dd:hover .dd_d{
+  opacity: 0;
+}
+.dd .dd_d:hover{
+  z-index: 1000;
+  background-color: #ff0000;
+  transform: scale(1.4);
+  opacity: 1;
 }

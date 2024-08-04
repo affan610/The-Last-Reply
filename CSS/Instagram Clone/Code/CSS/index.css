@@ -13,11 +13,12 @@
     p {
         margin: 0;
     }
-    
+   
     .md {
         height: 100%;
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     
@@ -42,7 +43,12 @@
         width: 700px;
         position: relative;
     }
-    
+    .status_img_div{
+        height: 70px;
+        width: 70px;
+        background-color: red;
+        cursor: pointermd;
+    }
     .inkipinkiponki {
         width: 85.8%;
         display: flex;
@@ -79,7 +85,10 @@
     .coudntfindaname_left_div {
         padding: 37px 20px 0px 14px;
     }
-    
+    .md_2_d {
+        height: 10px;
+        background-color: red;
+    }
     .dd1-1 {
         margin: 35px 0 37px 0;
         cursor: pointer;
@@ -435,7 +444,9 @@
     .md_2_d2_d1_d1_d2_d1_d2 {
         display: inline-block;
     }
-    
+    .md_2_d1_d1_d1_d1:hover{
+        cursor: pointer;
+    }
     .pt_3,
     .md_2_d2_d2,
     .md_2_d1,
