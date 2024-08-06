@@ -2,7 +2,6 @@ body {
     margin: 0;
     position: relative;
     height: 100vh;
-    width: 100vw;
     display: flex;
     align-items: center;
 }
@@ -52,7 +51,7 @@ p {
 
 .nv_1_nv_1_p {
     cursor: pointer;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .nv_3 {
@@ -106,14 +105,14 @@ p {
 .md_1_p {
     font-size: 3vw;
     font-weight: 600;
+    color: white;
 }
 
 .md_2 {
     margin: 15px 0 30px 0;
 }
 
-.md_2_p,
-.nv_1_nv_1_p {
+.md_2_p {
     font-size: 0.9vw;
 }
 
@@ -218,12 +217,16 @@ p {
         display: flex;
         top: 8vw;
     }
+    .nv_1_nv_1_p {
+        font-size: 18px;
+    }
     .nv_2 {
         display: none;
     }
     .nv {
         padding-top: 2vw;
     }
+
 }
 
 .hover_anim {
@@ -296,6 +299,7 @@ p {
     }
     .img2 {
         position: inherit;
+        margin: 10vw 0 0 -10vw;
     }
     body {
         justify-content: center;
