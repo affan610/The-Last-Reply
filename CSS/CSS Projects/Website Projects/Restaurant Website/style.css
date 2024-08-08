@@ -1,11 +1,11 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    height: 200vw;
+    height: 100vh;
     display: grid;
     row-gap: 40px;
     background-color: black;
-    grid-template-rows: 800px 100px;
+    grid-template-rows: auto 1fr;
 }
 
 p {
@@ -139,6 +139,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .d1 {
@@ -277,16 +278,14 @@ p {
 
 footer {
     display: grid;
-    left: 0;
-    right: 0;
     grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    position: absolute;
-    bottom: 0;
+    align-items: end;
+    position: relative;
 }
 
 .d {
     display: flex;
+
     height: 80px;
     justify-content: center;
     align-items: center;
